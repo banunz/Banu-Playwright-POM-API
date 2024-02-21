@@ -1,6 +1,8 @@
-// @ts-check
-const { test } = require('@playwright/test')
-const { HomePage } = require('./homepage')
+
+const { test } = require('@playwright/test');
+const { HomePage } = require('./homepage');
+
+
 
 test('First test', async ({ page }) => {
 
